@@ -1,0 +1,1 @@
+aws s3 cp .s3://"your s3 bucket name/folder path/" --recursive --exclude "*" --include "*.json"
